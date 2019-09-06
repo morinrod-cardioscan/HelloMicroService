@@ -14,7 +14,7 @@ namespace helloMicroservice.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Hello", "Service-Atif" };
+            return new string[] { "Hello", "Service-New" };
         }
 
         // GET api/values/5
